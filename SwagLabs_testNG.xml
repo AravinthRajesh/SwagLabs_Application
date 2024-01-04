@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="2">
+
+<test name="Add products">
+<classes>
+<class name="testCases.Add_Products_in_Cart">
+</class>
+</classes>
+</test>
+ 
+<test name="Checkout">
+<classes>
+<class name="testCases.Checkout_with_Information">
+</class>
+</classes>
+</test>
+
+<test name="Logout Application">
+<classes>
+<class name="testCases.Logout_Application">
+</class>
+</classes>
+</test>
+
+</suite>
